@@ -1,8 +1,8 @@
-var btnOpen = document.getElementById('btn-open');
-var modal = document.getElementById('wrapper-modal');
+const btnOpen = document.getElementById('btn-open');
+const modal = document.getElementById('wrapper-modal');
 
-var overlay = document.getElementById('overlay');
-var btnClose = document.getElementById('btn-close');
+const overlay = document.getElementById('overlay');
+const btnClose = document.getElementById('btn-close');
 
 btnOpen.addEventListener('click',function(){
     modal.classList.add('active');
